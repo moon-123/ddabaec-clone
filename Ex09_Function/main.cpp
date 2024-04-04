@@ -9,10 +9,7 @@ using namespace std;
 const int kMaxStr = 100; // 전역 변수 소개
 
 // 함수 (선언과 정의 분리 가능)
-int Add(int a, int b)
-{
-    return a + b; // 반환값 안내
-}
+int Add(int a, int b);
 
 // 반환 자료형이 지정되지 않았음 (void)
 void Add(int a, int b, int *c)
@@ -31,3 +28,10 @@ int main()
 
     return 0;
 }
+
+int Add(int a, int b)
+{
+    return a + b; // 반환값 안내
+}
+
+// 반환값을 여러개 주고 싶을 때 포인터를 사용하는 것도 방법

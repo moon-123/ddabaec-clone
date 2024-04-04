@@ -23,15 +23,19 @@ int main()
         cout << "입력: ";
         cin >> guess;
 
-        /*if ()
+        if (guess < number)
         {
+            cout << "너무 작아요!" << endl;
         }
-        else if ()
+        else if (guess > number)
         {
+            cout << "너무 커요!" << endl;
         }
         else
         {
-        }*/
+            cout << "정답!!!";
+            break;
+        }
     }
 
     // 보충: 하나씩 다 비교하는 방법과 이진 탐색 비교
