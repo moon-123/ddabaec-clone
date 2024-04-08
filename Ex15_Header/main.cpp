@@ -18,6 +18,7 @@ int main()
     my_class2.Print();
 
     my_class1.Increment(1);
+    my_class1.Decrement(2);
     my_class1.Print();
 
     // 배열 사용 가능

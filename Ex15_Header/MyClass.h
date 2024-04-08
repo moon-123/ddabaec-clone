@@ -11,7 +11,7 @@ public:
     ~MyClass();
 
     void Increment(int a);
-    // void Decrement(int a); // 구현 실습
+    void Decrement(int a); // 구현 실습
     void Print();
 
 private:

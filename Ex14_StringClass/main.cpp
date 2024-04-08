@@ -89,10 +89,11 @@ public:
         // 다른 멤버 함수 호출 가능
         // Resize(...);
 
+        Resize(old_size + app_str->size_);
         // 중요한 개념
         for (int i = old_size; i < size_; i++)
         {
-            // TODO: 복사
+            str_[i] = app_str->str_[i - old_size];
         }
     }
 

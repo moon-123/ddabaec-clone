@@ -10,15 +10,15 @@ using namespace std;
 int main()
 {
     // 파일 출력
-    /*{
-        ofstream ofile;
+    // {
+    //     ofstream ofile;
 
-        ofile.open("my_contacts.txt");
-        ofile << "안녕하세요? 반갑습니다.\n";
-        ofile << "두 번째 줄입니다.\n";
-        ofile << "세 번째 줄입니다.\n";
-        ofile.close();
-    }*/
+    //     ofile.open("my_contacts.txt");
+    //     ofile << "안녕하세요? 반갑습니다.\n";
+    //     ofile << "두 번째 줄입니다.\n";
+    //     ofile << "세 번째 줄입니다.\n";
+    //     ofile.close();
+    // }
 
     // 파일 입력
     {
